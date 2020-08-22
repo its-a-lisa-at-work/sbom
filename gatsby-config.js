@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     author: 'Foo',
-    title: `Agency Name`,
+    title: `National Telecommunications and Information Agency`,
     description: `Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.`,
     navigation: [
@@ -9,24 +9,30 @@ module.exports = {
         items: [{ text: 'Home', link: '/' }],
       },
       {
+        items: [{ text: 'Overview', link: '/overview' }],
+      },
+      {
+        items: [{ text: 'FAQ', link: '/faq' }],
+      },
+
+      {
+        items: [{ text: 'Resources', link: '/document' }],
+      },
+
+      {
+        title: 'Working Groups',
+        items: [
+          { text: 'Framing Working group', link: '/framing-wg' },
+          { text: 'Awareness and Adoption', link: '/awareness-adoption' },
+          { text: 'Formats and Tooling', link: '/formats-tooling' },
+          { text: 'Proof of Concept', link: '/proof-of-concepts' },
+        ],
+      },
+
+      {
         items: [{ text: 'Blog', link: '/blog' }],
       },
-      {
-        items: [{ text: 'Document', link: '/document' }],
-      },
-      {
-        items: [
-          { text: 'Document with sidenav', link: '/document-with-sidenav' },
-        ],
-      },
-      {
-        title: 'Document submenu',
-        items: [
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
-        ],
-      },
+      
     ],
     secondaryLinks: [
       { text: 'Secondary link', link: '/' },
@@ -125,6 +131,7 @@ module.exports = {
         path: `${__dirname}/src/documentation-pages`,
       },
     },
+
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-manifest`,

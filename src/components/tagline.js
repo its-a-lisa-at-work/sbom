@@ -9,22 +9,14 @@ const Tagline = () => (
     <div className="grid-row grid-gap">
       <div className="tablet:grid-col-4">
         <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0">
-          A tagline highlights your approach
+        The Software Component Transparency initiative welcomes participation.
         </h2>
       </div>
       <div className="tablet:grid-col-8 usa-prose">
         <p>
-          The tagline should inspire confidence and interest, focusing on the
-          value that your overall approach offers to your audience. Use a
-          heading typeface and keep your tagline to just a few words, and don’t
-          confuse or mystify.
+        NTIA’s next cybersecurity multistakeholder process will focus on Software Component Transparency. Participants will explore how manufacturers and vendors can communicate useful and actionable information about the third-party software components that comprise modern software and IoT devices, and how this data can be used by enterprises to foster better security decisions and practices.  The first meeting, to be held on July 19, 2018, is intended to bring stakeholders together to share the range of views on software and IoT component transparency, and to establish desired stakeholder outcomes and a structure for this process.  The goal of this initiative is to foster a market offering greater transparency to organizations, who can then integrate this data into their risk management approach.
         </p>
-        <p>
-          Use the right side of the grid to explain the tagline a bit more. What
-          are your goals? How do you do your work? Write in the present tense,
-          and stay brief here. People who are interested can find details on
-          internal pages.
-        </p>
+
       </div>
     </div>
   </section>

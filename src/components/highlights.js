@@ -1,5 +1,5 @@
 import React from 'react';
-import circle from '../../node_modules/uswds/dist/img/circle-124.png';
+import circle from '../images/circle-124.png';
 
 /*
   Use this section to highlight key elements of your site. Some sites will only have two while others may have six to eight. 
@@ -13,12 +13,10 @@ const Highlights = () => (
           <img className="usa-media-block__img" src={circle} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Graphic headings can vary.
+            Framing Working group
             </h3>
             <p>
-              Graphic headings can be used a few different ways, depending on
-              what your landing page is for. Highlight your values, specific
-              program areas, or results.
+            Work will focus defining and refining the specification of SBOMs, with attention to obstacles to broader, more scalable adoption. Topics identified include: component identity and naming, how to share SBOMs, how to characterize non-exploitability vs. vulnerability, SBOM integrity and high assurance data, SBOMs for Cloud/SAAS, and others.
             </p>
           </div>
         </div>
@@ -26,12 +24,10 @@ const Highlights = () => (
           <img className="usa-media-block__img" src={circle} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Stick to 6 or fewer words.
+            Awareness and Adoption
             </h3>
             <p>
-              Keep body text to about 30 words. They can be shorter, but try to
-              be somewhat balanced across all four. It creates a clean
-              appearance with good spacing.
+            Work will focus on promoting SBOM as an idea and a practice. Tasks identified include: building a broader outreach strategy with outreach targets; shorter documents with specific outreach goals for sectors, organizational role, etc; coordinating with related efforts; more explicit business cases for SBOM adoption.
             </p>
           </div>
         </div>
@@ -41,12 +37,10 @@ const Highlights = () => (
           <img className="usa-media-block__img" src={circle} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Never highlight anything without a goal.
+            Formats & Tooling
             </h3>
             <p>
-              For anything you want to highlight here, understand what your
-              users know now, and what activity or impression you want from them
-              after they see it.
+            Working group will focus on how to automate SBOM production and use. Initial goals are to catalog existing tools for SBOMs in the different identified standards (SPDX, SWID, CycloneDX) and develop a translator between these formats. Further work will include a gap analysis in SBOM tools, and potentially explore SBOM processes and playbooks.
             </p>
           </div>
         </div>
@@ -54,12 +48,10 @@ const Highlights = () => (
           <img className="usa-media-block__img" src={circle} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Could also have 2 or 6.
+            Healthcare Proof of Concept
             </h3>
             <p>
-              In addition to your goal, find out your users’ goals. What do they
-              want to know or do that supports your mission? Use these headings
-              to show those.
+            Working group will plan and execute a second proof-of-concept exercise, with an expanded set of healthcare participants and the inclusion of IT and security industry partners. The group will also advise other industry players interested in SBOM demonstrations.
             </p>
           </div>
         </div>
