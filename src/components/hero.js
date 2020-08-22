@@ -14,9 +14,7 @@ const Hero = () => (
         <p>
         A “Software Bill of Materials” (SBOM) is effectively a nested inventory, a list of ingredients that make up software components. The following documents were drafted by stakeholders in an open and transparent process to address transparency around software components, and were approved by a consensus of participating stakeholders.
         </p>
-        <a className="usa-button" href="/">
-          Call to action
-        </a>
+
       </div>
     </div>
   </section>
