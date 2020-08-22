@@ -10,11 +10,13 @@ $theme-font-path: '../../node_modules/uswds/src/fonts';
   the $theme-image-path above.
 */
 
-$theme-hero-image: '#{$theme-image-path}/sbom2.png';
+$theme-hero-image: '../../src/images/sbom2.png'; 
 
 // Your custom changes to variables go here
 // Uncomment to see this working
-// $theme-color-primary-darker: 'black';
+ $theme-color-primary-darker: 'violet-70v';
+ $theme-color-secondary-darker: 'violet-20v';
+ $theme-color-accent-cool: 'gray-cool-40';
 
 @import 'uswds';
 
