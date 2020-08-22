@@ -1,5 +1,5 @@
 ---
-title: Document
+title: Proof of Concept
 sidenav: false
 ---
 

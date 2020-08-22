@@ -3,7 +3,7 @@ title: FAQ
 sidenav: false
 ---
 
-## OVERVIEW
+## Frequently Asked Questions
 ### Q: What is an SBOM?
 
 A: A Software Bill of Materials (SBOM) is a formally structured list of components, libraries, and modules that were used to build (i.e. compile and link) a given piece of software and the supply chain relationships between them. These components can be open source or proprietary, free or paid, and the data can be widely available or access-restricted. 
