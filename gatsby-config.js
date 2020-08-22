@@ -127,6 +127,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `overview-posts`,
+        path: `${__dirname}/src/overview-posts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `documentation-pages`,
         path: `${__dirname}/src/documentation-pages`,
       },

@@ -1,5 +1,5 @@
 ---
-title: Document
+title: Framing Working Group
 sidenav: false
 ---
 

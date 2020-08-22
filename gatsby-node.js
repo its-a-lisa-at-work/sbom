@@ -36,6 +36,7 @@ exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions;
 
   await createBlogPages(createPage, graphql);
+  await createOverviewPages(createPage, graphql);
   await createMarkdownPages(createPage, graphql);
 };
 
@@ -64,7 +65,31 @@ async function createBlogPages(createPage, graphql) {
     });
   });
 }
+async function createOverviewPages(createPage, graphql) {
+  const overviewTemplate = path.resolve('./src/templates/overview.js');
+  const postTemplate = path.resolve('./src/templates/overview-post.js');
+  const posts = await markdownQuery(graphql, 'overview-posts');
 
+  // Create pagination index page
+  paginate({
+    createPage,
+    items: posts,
+    itemsPerPage: 3,
+    pathPrefix: '/overview',
+    component: overviewTemplate,
+  });
+
+  // Create individual pages
+  posts.forEach(({ node }) => {
+    createPage({
+      path: 'overview/' + node.fields.name,
+      component: postTemplate,
+      context: {
+        name: node.fields.name
+      },
+    });
+  });
+}
 async function createMarkdownPages(createPage, graphql) {
   const pageTemplate = path.resolve('./src/templates/documentation-page.js');
   const pages = await markdownQuery(graphql, 'documentation-pages');
