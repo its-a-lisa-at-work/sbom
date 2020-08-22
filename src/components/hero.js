@@ -9,12 +9,10 @@ const Hero = () => (
     <div className="grid-container">
       <div className="usa-hero__callout">
         <h2 className="usa-hero__heading">
-          <span className="usa-hero__heading--alt">Hero callout:</span>Bring
-          attention to a project priority
+          <span className="usa-hero__heading--alt">SBOM</span>Software Transparency
         </h2>
         <p>
-          Support the callout with some short explanatory text. You don’t need
-          more than a couple of sentences.
+        A “Software Bill of Materials” (SBOM) is effectively a nested inventory, a list of ingredients that make up software components. The following documents were drafted by stakeholders in an open and transparent process to address transparency around software components, and were approved by a consensus of participating stakeholders.
         </p>
         <a className="usa-button" href="/">
           Call to action

@@ -1,12 +1,15 @@
 module.exports = {
   siteMetadata: {
     author: 'Foo',
-    title: `Agency Name`,
+    title: `National Telecommunications and Information Agency`,
     description: `Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.`,
     navigation: [
       {
         items: [{ text: 'Home', link: '/' }],
+      },
+      {
+        items: [{ text: 'FAQ', link: '/faq' }],
       },
       {
         items: [{ text: 'Blog', link: '/blog' }],
