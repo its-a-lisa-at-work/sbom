@@ -12,7 +12,7 @@ const Hero = () => (
           <span className="usa-hero__heading--alt">SBOM</span>Software Transparency
         </h2>
         <p>
-        A “Software Bill of Materials” (SBOM) is effectively a nested inventory, a list of ingredients that make up software components. The following documents were drafted by stakeholders in an open and transparent process to address transparency around software components, and were approved by a consensus of participating stakeholders.
+        A Software Bill of Materials (SBOM) is a formally structured list of components, libraries, and modules that were used to build (i.e. compile and link) a given piece of software and the supply chain relationships between them. These components can be open source or proprietary, free or paid, and the data can be widely available or access-restricted. 
         </p>
 
       </div>

@@ -14,7 +14,7 @@ const Tagline = () => (
       </div>
       <div className="tablet:grid-col-8 usa-prose">
         <p>
-        NTIA’s next cybersecurity multistakeholder process will focus on Software Component Transparency. Participants will explore how manufacturers and vendors can communicate useful and actionable information about the third-party software components that comprise modern software and IoT devices, and how this data can be used by enterprises to foster better security decisions and practices.  The first meeting, to be held on July 19, 2018, is intended to bring stakeholders together to share the range of views on software and IoT component transparency, and to establish desired stakeholder outcomes and a structure for this process.  The goal of this initiative is to foster a market offering greater transparency to organizations, who can then integrate this data into their risk management approach.
+        NTIA’s next cybersecurity multistakeholder process focuses on Software Component Transparency. Participants explore how manufacturers and vendors can communicate useful and actionable information about the third-party software components that comprise modern software and IoT devices, and how this data can be used by enterprises to foster better security decisions and practices.  The first meeting was held on July 19, 2018 and brought stakeholders together to share the range of views on software and IoT component transparency, and to establish desired stakeholder outcomes and a structure for this process.  The goal of this initiative is to foster a market offering greater transparency to organizations, who can then integrate this data into their risk management approach.
         </p>
 
       </div>
